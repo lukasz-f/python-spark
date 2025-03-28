@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"pyspark[sql]" = "==3.5.1"
+grpcio = "*"
+grpcio-status = "*"
+googleapis-common-protos = "*"
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11.10"
